@@ -1,5 +1,14 @@
-function FplProject() {
-    return <h1>Fantasy Soccer Points Predictor</h1>
-}
+import React from 'react';
 
-export default FplProject;
+
+/*
+Github link
+
+Image or fpl logo
+
+Text centered
+
+Live updater for team progress
+
+
+Scope - I constantly 
