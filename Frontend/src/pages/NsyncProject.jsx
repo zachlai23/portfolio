@@ -19,4 +19,10 @@ function NsyncProject() {
                 The game runs, infinitely looping the song increasing the speed until the user fails by 
                 missing or incorrectly tapping to the beat.
 
-                I utilized Swift, SpriteKit, Gamep
+                I utilized Swift, SpriteKit, GameplayKit, AVAudioPlayer, and Figma to create this app.
+            </div>
+        </div>
+    );
+}
+
+export default NsyncProject;
