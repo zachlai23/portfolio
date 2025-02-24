@@ -10,7 +10,7 @@ import NsyncProject from '../pages/NsyncProject';
 function Header() {
     return (
         <BrowserRouter>
-            <Navbar bg="primary" data-bs-theme="dark">
+            <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
                     <Navbar.Brand>Zachary Lai</Navbar.Brand>
                     <Nav>
@@ -24,6 +24,7 @@ function Header() {
                 </Container>
             </Navbar>
             <Routes>
+                <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<AboutMe />} />
                 <Route path="/fpl" element={<FplProject />} />

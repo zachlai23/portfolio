@@ -1,5 +1,11 @@
 import { Stack } from 'react-bootstrap';
 import { Container, Row, Col, Card } from 'react-bootstrap/';
+import uciLogo from '../assets/uci.png';
+import clpLogo from '../assets/clpccd.jpg';
+import wgtLogo from '../assets/wgtLogo.jpeg';
+import stealthLogo from '../assets/stealthStart.png';
+import hyelLogo from '../assets/hyelLogo.png';
+import openGameLabLogo from '../assets/gameLab.png';
 import React from 'react';
 
 function AboutMe() {
@@ -7,7 +13,7 @@ function AboutMe() {
         <>
         {/* Centered */}
         <h1 className="d-flex justify-content-center p-5 border ">About me</h1>
-        <p className="d-flex justify-content-center p-3border">I am currently pursuing my Bachelor's degree in Computer Science at UC Irvine.</p>
+        <p className="d-flex justify-content-center p-3border">I am currently pursuing my Bachelor's degree in Computer Science at UC Irvine, with an expected graduation data of June 2026..</p>
 
         <Container className="p-5" fluid>
             <Row>
@@ -15,26 +21,66 @@ function AboutMe() {
                 <Col className="d-flex flex-column border p-4">
                     <h3>Education</h3>
 
-                    <div className="d-flex justify-content-between border">
-                        <div className="d-flex justify-content-start border">Irvine icon</div>
+                    <div className="d-flex justify-content-between align-items-center">
+                        <img src={uciLogo} alt="UCI Logo" width="75" height="75" className="rounded-4"/>
 
-                        <div className="d-flex flex-column border p-3">
+                        <div className="d-flex flex-column p-3">
                             <strong>UC Irvine</strong>
                             <div>B.S. Computer Science</div>
                             <div>September 2024 - June 2026</div>
                         </div>
-
                     </div>
 
-                    <div className="d-flex justify-content-between border">
-                        <div className="d-flex justify-content-start border">LPC/CC icon</div>
+                    <div className="d-flex justify-content-between align-items-center">
+                        <img src={clpLogo} alt="CLP Logo" width="75" height="75" className="rounded-4"/>
 
-                        <div className="d-flex flex-column border p-3">
+                        <div className="d-flex flex-column p-3">
                             <strong>Las Positas/Chabot Community College</strong>
                             <div>A.S. Computer Science</div>
                             <div>August 2021 - June 2024</div>
                         </div>
+                    </div>
 
+                    <h3 className="pt-5">Experience</h3>
+
+                    <div className="d-flex justify-content-between align-items-center">
+                        <img src={wgtLogo} alt="WGT Logo" width="75" height="75" className="rounded-4"/>
+
+                        <div className="d-flex flex-column p-3">
+                            <div>Incoming Software Engineer Intern</div>
+                            <div>Walmart Global Tech</div>
+                            <div>June 2025 - August 2025</div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex justify-content-between align-items-center">
+                        <img src={hyelLogo} alt="HYEL Logo" width="75" height="75" className="rounded-4"/>
+
+                        <div className="d-flex flex-column p-3">
+                            <div>Software Developer</div>
+                            <div>HYEL</div>
+                            <div>October 2024 - December 2024</div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex justify-content-between align-items-center">
+                        <img src={stealthLogo} alt="Stealth Logo" width="75" height="75" className="rounded-4"/>
+
+                        <div className="d-flex flex-column p-3">
+                            <div>Machine Learning Research Assistant</div>
+                            <div>Startup in Stealth</div>
+                            <div>January 2024 - March 2024</div>
+                        </div>
+                    </div>
+
+                    <div className="d-flex justify-content-between align-items-center">
+                        <img src={openGameLabLogo} alt="Open Game Lab Logo" width="75" height="75" className="rounded-4"/>
+
+                        <div className="d-flex flex-column p-3">
+                            <div>Group Leader</div>
+                            <div>Open Game Lab, Chabot College</div>
+                            <div>June 2023 - August 2023</div>
+                        </div>
                     </div>
                 </Col>
 
